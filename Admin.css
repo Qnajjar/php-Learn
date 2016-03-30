@@ -1,0 +1,159 @@
+
+body{
+overflow-y: hidden;
+margin:0px;
+border:0px;
+width: 100%;
+
+}
+
+#header{
+position: absolute;
+width:1165px;
+height:120px;
+padding-top:20px;
+float: left;
+left: 200px;
+color: #000000;
+background-color:"";
+background-size: cover;
+}
+
+#sidebar{
+z-index:0;
+width:200px;
+height:900px;
+color: #000000;
+background-image: url('');
+background-size: cover;
+margin: 0 0 0 0px;
+}
+ 
+  #content{
+position:absolute;
+top:140px;
+width: 86%;
+z-index: 500;
+height: 500px;
+margin: 0 0px 0 200px;
+padding: 0px 0 0px 0px;
+color: #000000;
+background-image: url('');
+background-size: cover;
+	}
+
+
+#data{
+background-color:#ebe1d9;
+
+}
+ul li {
+padding: 20px;
+border-bottom: 2px solid gray;
+}
+
+#logo {
+	position: absolute;
+	top: -20px;
+	left: 450px;
+	height: 150px;
+	width:100px;
+	line-height: 120px;
+	
+}
+
+#logo a {
+	text-decoration:blink;
+	color: red;
+}
+
+#logo h1 {
+	font-size: 3.5em;
+	font-family: Lobster, cursive;
+	text-shadow: 0 2px 1px #32251B;
+}
+.png{
+margin-right: 50px;
+}
+
+#header h4{
+style="color:#25edbf;"	
+margin:outo;
+ width:120px;
+    line-height:51px;
+    vertical-align:left;
+
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+.unique {
+    position: relative;
+    background: url('design/icon2.png') no-repeat scroll 0 0 transparent;
+    color: #000000;
+    border: none;
+    font-size:15px;	
+    col//or: #32251B;
+    padding: 27px;
+    width: 192px;
+    text-align:left;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.2s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.unique:after {
+    content: "";
+    background: #ebe1d9;
+    display: block;
+    position: absolute;
+    padding-top:10%;
+    padding-left: 50%;
+    margin-left: -15px!important;
+    margin-top: -50%;
+    opacity: 0;
+    transition: all 0.5s
+}
+
+.unique:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    transition: 0s
+}
+
+a.one:link {color:;text-decoration:none;}
+a.one:visited {text-decoration:none;}
+a.one:hover {text-decoration:	;}
+.one{
+      margin-right: 60px;
+      position: relative;
+	  color: #083B82;
+	  background-color:white;
+      border: none;
+      margin-left: 1050px;
+      font-size:15px;	
+      cursor: pointer;
+    font-weight: bold;
+     
+} 
+ .name{
+
+	font_color:#083B82;
+ margin-left: 1035px;
+ margin-bottom: -15px;
+ }
+ 
+ .loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('lod.gif') 50% 50% no-repeat ;
+}
